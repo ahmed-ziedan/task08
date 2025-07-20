@@ -1,0 +1,36 @@
+body {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 850;
+}
+
+button {
+  background-color: rgb(215, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+}
+button:hover {
+  font-size: 18px;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: red;
+}
